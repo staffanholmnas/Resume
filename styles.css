@@ -1,33 +1,56 @@
 body {
-    margin: 0 auto;
-    max-width: 40em;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    padding: 4em 1em;
-    color: #333;
-    background-color: #333;
+    background-color: #000;
+    text-align: center;
+    color: #ddd;
+    letter-spacing: 1px;
 }
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 9em;
-    color: #111;
-   
+    font-size: 4em;
+    text-align: right;
+    color: #ddd;
 }
 
-.boxContainerOfMe {
-   width: 3px;
-    
-}
-
-.boxContainerText {
+.greyBox {
+    height: 800px;
     width: 1200px;
-    height: 2000px;
-    left: 100px;
+    background-color: #333;
+    color: #ddd;
     position: absolute;
+    /*This centers the element both horizontally and vertically*/
+    left: 50%;
+    margin-left: -600px;
+    top: 50%;
+    margin-top: -400px;
     border-style: solid;
-    border-width: 16px;
-    border-color: rgb(0, 113, 128);
+    border-width: 8px;
+    border-color: #333;
+}
+
+.picBox {
+    width: 400px;
+    height: 1000px;
     background-image: url(assets/Background.jpg);
-    background-size: cover;
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+    top: 50%;
+    margin-top: -500px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #222;
+}
+
+.leftPanel {
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+
+.rightPanel {
+    width: 50%;
+    float: right
 }
