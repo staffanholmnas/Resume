@@ -58,5 +58,30 @@ h3 {
 
 .rightPanel {
     width: 50%;
-    float: right
+    float: right;
+}
+
+.bottomPicLeft {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #222;
+}
+
+.bottomPicRight {
+    position: absolute;
+    bottom: 50px;
+    right: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #222;
+}
+
+.picOfMe {
+    border-radius:50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #222;
 }
