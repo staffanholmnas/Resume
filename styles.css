@@ -57,6 +57,7 @@ h3 {
 }
 
 .rightPanel {
+    position: relative;
     width: 50%;
     float: right;
 }
@@ -94,7 +95,8 @@ h3 {
     text-indent: 6px;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     text-decoration: none;
     color: cyan;
 }
@@ -102,4 +104,24 @@ a:link, a:visited {
 #mylink {
     text-decoration: none;
     color: #aaa;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+.left-text {
+    position: absolute;
+    left : 20px;
+}
+
+.right-text {
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    white-space: nowrap;
+}
+
+.white-header {
+    color: #ddd;
 }
