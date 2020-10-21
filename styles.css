@@ -79,7 +79,7 @@ h3 {
 a:link,
 a:visited {
     text-decoration: none;
-    color: #aaa;
+    color: rgb(207, 68, 68);
 }
 
 #mylink {
