@@ -92,7 +92,6 @@ ul.b {
 }
 
 .wrapper {
-
     width: 600px;
     overflow: auto
 }
@@ -101,11 +100,9 @@ ul.b {
     margin-left: 10px;
     width: 350px;
     float: left;
-
 }
 
 .right-text {
-
     white-space: nowrap;
 }
 
