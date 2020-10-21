@@ -62,25 +62,6 @@ h3 {
     float: right;
 }
 
-.bottomPicLeft {
-    width: 16%;
-    position: absolute;
-    bottom: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #222;
-}
-
-.bottomPicRight {
-    width: 16%;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #222;
-}
-
 .picOfMe {
     position: absolute;
     border-style: solid;
@@ -110,15 +91,21 @@ ul.b {
     list-style-type: square;
 }
 
+.wrapper {
+
+    width: 600px;
+    overflow: auto
+}
+
 .left-text {
-    position: absolute;
-    left : 20px;
+    margin-left: -25px;
+    width: 350px;
+    float: left;
+
 }
 
 .right-text {
-    position: absolute;
-    left: 300px;
-    top: 0px;
+
     white-space: nowrap;
 }
 
