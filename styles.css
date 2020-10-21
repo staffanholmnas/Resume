@@ -72,14 +72,14 @@ h3 {
 }
 
 .icons {
-    font-size: 2.5em;
+    font-size: 2.4em;
     text-indent: 6px;
 }
 
 a:link,
 a:visited {
     text-decoration: none;
-    color: cyan;
+    color: #aaa;
 }
 
 #mylink {
@@ -98,7 +98,7 @@ ul.b {
 }
 
 .left-text {
-    margin-left: -25px;
+    margin-left: 10px;
     width: 350px;
     float: left;
 
